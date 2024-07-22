@@ -1,0 +1,107 @@
+
+/* COLORS */
+$rojo: #e74c3c;
+$naranja: #ca8825;
+$amarillo: #e4f120;
+$verde: #2ecc71;
+$azul: #3498db;
+$lila: #9b59b6;
+$navy: #34495e;
+
+$c1: #1e685b;
+$c2: #f3af32;
+$c3: #384951;
+$c4: #c2dbd7;
+
+:root{
+	//? COLORS
+	/* NORMAL */
+	--rojo: #{$rojo};
+	--naranja: #{$naranja};
+	--amarillo: #{$amarillo};
+	--verde: #{$verde};
+	--azul: #{$azul};
+	--lila: #{$lila};
+	--navy: #{$navy};
+
+	--c1: #{$c1};
+	--c2: #{$c2};
+	--c3: #{$c3};
+	--c4: #{$c4};
+
+	/* LIGHTS */
+	--rojo-light: #{lighten($rojo, 20%)};
+	--naranja-light: #{lighten($naranja, 20%)};
+	--amarillo-light: #{lighten($amarillo, 10%)};
+	--verde-light: #{lighten($verde, 20%)};
+	--azul-light: #{lighten($azul, 20%)};
+	--lila-light: #{lighten($lila, 20%)};
+	--navy-light: #{lighten($navy, 20%)};
+	--c1-light: #{lighten($c1, 20%)};
+	--c2-light: #{lighten($c2, 10%)};
+	--c3-light: #{lighten($c3, 20%)};
+	--c4-light: #{lighten($c4, 5%)};
+
+	/* DARKS */
+	--rojo-dark: #{darken($rojo, 20%)};
+	--naranja-dark: #{darken($naranja, 20%)};
+	--amarillo-dark: #{darken($amarillo, 20%)};
+	--verde-dark: #{darken($verde, 20%)};
+	--azul-dark: #{darken($azul, 20%)};
+	--lila-dark: #{darken($lila, 10%)};
+	--navy-dark: #{darken($navy, 5%)};
+	--c1-dark: #{darken($c1, 10%)};
+	--c2-dark: #{darken($c2, 20%)};
+	--c3-dark: #{darken($c3, 5%)};
+	--c4-dark: #{darken($c4, 20%)};
+
+	/* TRANSPARENCIES */
+	--rojo-25: #{transparentize($rojo, 0.25)};
+	--naranja-25: #{transparentize($naranja, 0.25)};
+	--amarillo-25: #{transparentize($amarillo, 0.25)};
+	--verde-25: #{transparentize($verde, 0.25)};
+	--azul-25: #{transparentize($azul, 0.25)};
+	--lila-25: #{transparentize($lila, 0.25)};
+	--navy-25: #{transparentize($navy, 0.25)};
+	--c1-25: #{transparentize($c1, 0.25)};
+	--c2-25: #{transparentize($c2, 0.25)};
+	--c3-25: #{transparentize($c3, 0.25)};
+	--c4-25: #{transparentize($c4, 0.25)};
+
+	--rojo-50: #{transparentize($rojo, 0.5)};
+	--naranja-50: #{transparentize($naranja, 0.5)};
+	--amarillo-50: #{transparentize($amarillo, 0.5)};
+	--verde-50: #{transparentize($verde, 0.5)};
+	--azul-50: #{transparentize($azul, 0.5)};
+	--lila-50: #{transparentize($lila, 0.5)};
+	--navy-50: #{transparentize($navy, 0.5)};
+	--c1-50: #{transparentize($c1, 0.5)};
+	--c2-50: #{transparentize($c2, 0.5)};
+	--c3-50: #{transparentize($c3, 0.5)};
+	--c4-50: #{transparentize($c4, 0.5)};
+
+	--rojo-75: #{transparentize($rojo, 0.75)};
+	--naranja-75: #{transparentize($naranja, 0.75)};
+	--amarillo-75: #{transparentize($amarillo, 0.75)};
+	--verde-75: #{transparentize($verde, 0.75)};
+	--azul-75: #{transparentize($azul, 0.75)};
+	--lila-75: #{transparentize($lila, 0.75)};
+	--navy-75: #{transparentize($navy, 0.75)};
+	--c1-75: #{transparentize($c1, 0.75)};
+	--c2-75: #{transparentize($c2, 0.75)};
+	--c3-75: #{transparentize($c3, 0.75)};
+	--c4-75: #{transparentize($c4, 0.75)};
+
+	//! FIN COLORS
+
+
+	//? BORDER RADIUS
+	--br-1: 3px;
+	--br-2: 5px;
+	--br-3: 7px;
+	--br-4: 10px;
+	--br-5: 15px;
+	--br-50: 50%;
+	//! FIN BORDER RADIUS
+}
+
